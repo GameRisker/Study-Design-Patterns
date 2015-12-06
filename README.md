@@ -11,7 +11,7 @@ Study-Design-Patterns
 
 --------------------------
 
-项目的学习心得
+学习心得
 --------
 [blog.gamerisker.com][1]
 [1]:http://blog.gamerisker.com
