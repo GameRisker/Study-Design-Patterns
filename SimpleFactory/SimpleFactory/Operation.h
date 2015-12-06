@@ -10,20 +10,10 @@
 
 
 
-@interface Operation : NSObject {
-//@public
-//    long numberA;
-//    long numberB;
-}
+@interface Operation : NSObject
 
 @property (readwrite ,assign) long numberA;
 @property (readwrite ,assign) long numberB;
-
-//- (void)setNumberA;
-//- (void)setNumberB;
-//
-//- (long)getNnumberA;
-//- (long)getNnumberB;
 
 - (long)GetResult;
 
