@@ -14,9 +14,15 @@
 
 @interface CashContext : NSObject
 
+typedef NS_ENUM(NSInteger, CashType) {
+    CashType_Normal,
+    CashType_Rebate,
+    CashType_Return,
+};
+
 @property(readwrite) CashSuper *m_cashsuper;
 
-- (id)initWithType:(NSString *)name;
+- (id)initWithType:(CashType)type;
 
 - (double)GetResult:(double)money;
 
