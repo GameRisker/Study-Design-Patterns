@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C8E00AE1C120A1F0036D146 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E00A71C120A1F0036D146 /* OperationDiv.m */; };
+		5C49FA781C26E95900ECF522 /* OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C49FA751C26E95800ECF522 /* OperationDiv.m */; };
+		5C49FA791C26E95900ECF522 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C49FA771C26E95800ECF522 /* OperationSub.m */; };
 		5C8E00AF1C120A1F0036D146 /* OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E00A91C120A1F0036D146 /* OperationMul.m */; };
-		5C8E00B01C120A1F0036D146 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E00AB1C120A1F0036D146 /* OperationSub.m */; };
 		5C8E00B11C120A1F0036D146 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E00AD1C120A1F0036D146 /* OperationAdd.m */; };
 		5C8E00B41C120BB50036D146 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E00B31C120BB50036D146 /* OperationFactory.m */; };
 		5CDABE721C11ED0200BCCD01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDABE711C11ED0200BCCD01 /* main.m */; };
@@ -29,12 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5C8E00A61C120A1F0036D146 /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationDiv.h; path = SimpleFactory.xcodeproj/../OperationDiv.h; sourceTree = SOURCE_ROOT; };
-		5C8E00A71C120A1F0036D146 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OperationDiv.m; path = SimpleFactory.xcodeproj/../OperationDiv.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5C49FA741C26E95800ECF522 /* OperationDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDiv.h; sourceTree = "<group>"; };
+		5C49FA751C26E95800ECF522 /* OperationDiv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDiv.m; sourceTree = "<group>"; };
+		5C49FA761C26E95800ECF522 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
+		5C49FA771C26E95800ECF522 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
 		5C8E00A81C120A1F0036D146 /* OperationMul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OperationMul.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5C8E00A91C120A1F0036D146 /* OperationMul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OperationMul.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		5C8E00AA1C120A1F0036D146 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperationSub.h; path = SimpleFactory.xcodeproj/../OperationSub.h; sourceTree = SOURCE_ROOT; };
-		5C8E00AB1C120A1F0036D146 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = OperationSub.m; path = SimpleFactory.xcodeproj/../OperationSub.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5C8E00AC1C120A1F0036D146 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OperationAdd.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		5C8E00AD1C120A1F0036D146 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OperationAdd.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		5C8E00B21C120BB50036D146 /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OperationFactory.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -75,14 +75,14 @@
 		5CDABE701C11ED0200BCCD01 /* SimpleFactory */ = {
 			isa = PBXGroup;
 			children = (
-				5C8E00A61C120A1F0036D146 /* OperationDiv.h */,
-				5C8E00A71C120A1F0036D146 /* OperationDiv.m */,
 				5C8E00A81C120A1F0036D146 /* OperationMul.h */,
 				5C8E00B21C120BB50036D146 /* OperationFactory.h */,
 				5C8E00B31C120BB50036D146 /* OperationFactory.m */,
+				5C49FA741C26E95800ECF522 /* OperationDiv.h */,
+				5C49FA751C26E95800ECF522 /* OperationDiv.m */,
+				5C49FA761C26E95800ECF522 /* OperationSub.h */,
+				5C49FA771C26E95800ECF522 /* OperationSub.m */,
 				5C8E00A91C120A1F0036D146 /* OperationMul.m */,
-				5C8E00AA1C120A1F0036D146 /* OperationSub.h */,
-				5C8E00AB1C120A1F0036D146 /* OperationSub.m */,
 				5C8E00AC1C120A1F0036D146 /* OperationAdd.h */,
 				5C8E00AD1C120A1F0036D146 /* OperationAdd.m */,
 				5CDABE711C11ED0200BCCD01 /* main.m */,
@@ -148,12 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C49FA791C26E95900ECF522 /* OperationSub.m in Sources */,
 				5C8E00AF1C120A1F0036D146 /* OperationMul.m in Sources */,
+				5C49FA781C26E95900ECF522 /* OperationDiv.m in Sources */,
 				5CDABE721C11ED0200BCCD01 /* main.m in Sources */,
-				5C8E00AE1C120A1F0036D146 /* OperationDiv.m in Sources */,
 				5CDABE821C11EF8F00BCCD01 /* Operation.m in Sources */,
 				5C8E00B41C120BB50036D146 /* OperationFactory.m in Sources */,
-				5C8E00B01C120A1F0036D146 /* OperationSub.m in Sources */,
 				5C8E00B11C120A1F0036D146 /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

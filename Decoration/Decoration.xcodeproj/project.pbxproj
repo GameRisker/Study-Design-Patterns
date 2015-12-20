@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0A38CE1C26E8BE007766DD /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A38CD1C26E8BE007766DD /* TShirts.m */; };
+		5C0A38D11C26E8C9007766DD /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A38D01C26E8C9007766DD /* Finery.m */; };
 		5CFB006A1C26DDF20004C6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB00691C26DDF20004C6A3 /* main.m */; };
 		5CFB00721C26DE3C0004C6A3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB00711C26DE3C0004C6A3 /* Person.m */; };
-		5CFB00751C26E1700004C6A3 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB00741C26E1700004C6A3 /* Finery.m */; };
 		5CFB007A1C26E1B60004C6A3 /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB00771C26E1B60004C6A3 /* BigTrouser.m */; };
-		5CFB007B1C26E1B60004C6A3 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB00791C26E1B60004C6A3 /* TShirts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,16 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C0A38CC1C26E8B2007766DD /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		5C0A38CD1C26E8BE007766DD /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		5C0A38CF1C26E8C9007766DD /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		5C0A38D01C26E8C9007766DD /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
 		5CFB00661C26DDF20004C6A3 /* Decoration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Decoration; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB00691C26DDF20004C6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CFB00701C26DE3C0004C6A3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		5CFB00711C26DE3C0004C6A3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		5CFB00731C26E1700004C6A3 /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Finery.h; path = Decoration.xcodeproj/../Finery.h; sourceTree = SOURCE_ROOT; };
-		5CFB00741C26E1700004C6A3 /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Finery.m; path = Decoration.xcodeproj/../Finery.m; sourceTree = SOURCE_ROOT; };
 		5CFB00761C26E1B60004C6A3 /* BigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BigTrouser.h; path = ../Decoration.xcodeproj/BigTrouser.h; sourceTree = "<group>"; };
 		5CFB00771C26E1B60004C6A3 /* BigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BigTrouser.m; path = ../Decoration.xcodeproj/BigTrouser.m; sourceTree = "<group>"; };
-		5CFB00781C26E1B60004C6A3 /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TShirts.h; path = Decoration.xcodeproj/../TShirts.h; sourceTree = SOURCE_ROOT; };
-		5CFB00791C26E1B60004C6A3 /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TShirts.m; path = Decoration.xcodeproj/../TShirts.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 			children = (
 				5CFB00761C26E1B60004C6A3 /* BigTrouser.h */,
 				5CFB00771C26E1B60004C6A3 /* BigTrouser.m */,
-				5CFB00781C26E1B60004C6A3 /* TShirts.h */,
-				5CFB00791C26E1B60004C6A3 /* TShirts.m */,
-				5CFB00731C26E1700004C6A3 /* Finery.h */,
-				5CFB00741C26E1700004C6A3 /* Finery.m */,
+				5C0A38CC1C26E8B2007766DD /* TShirts.h */,
+				5C0A38CD1C26E8BE007766DD /* TShirts.m */,
+				5C0A38CF1C26E8C9007766DD /* Finery.h */,
+				5C0A38D01C26E8C9007766DD /* Finery.m */,
 				5CFB00691C26DDF20004C6A3 /* main.m */,
 				5CFB00701C26DE3C0004C6A3 /* Person.h */,
 				5CFB00711C26DE3C0004C6A3 /* Person.m */,
@@ -138,10 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0A38D11C26E8C9007766DD /* Finery.m in Sources */,
 				5CFB00721C26DE3C0004C6A3 /* Person.m in Sources */,
-				5CFB007B1C26E1B60004C6A3 /* TShirts.m in Sources */,
+				5C0A38CE1C26E8BE007766DD /* TShirts.m in Sources */,
 				5CFB007A1C26E1B60004C6A3 /* BigTrouser.m in Sources */,
-				5CFB00751C26E1700004C6A3 /* Finery.m in Sources */,
 				5CFB006A1C26DDF20004C6A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +259,7 @@
 				5CFB006F1C26DDF20004C6A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
