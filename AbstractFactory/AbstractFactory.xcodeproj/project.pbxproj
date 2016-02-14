@@ -13,9 +13,9 @@
 		5C21B9E71C70AF7B006E173B /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9E61C70AF7B006E173B /* AccessDepartment.m */; };
 		5C21B9EA1C70AFA3006E173B /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9E91C70AFA3006E173B /* AccessUser.m */; };
 		5C21B9EE1C70B135006E173B /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9ED1C70B135006E173B /* AccessFactory.m */; };
-		5C21B9F61C70B2B1006E173B /* SQLServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9F11C70B2B1006E173B /* SQLServerFactory.m */; };
 		5C21B9F71C70B2B1006E173B /* SQLServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9F31C70B2B1006E173B /* SQLServerUser.m */; };
 		5C21B9F81C70B2B1006E173B /* SQLServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9F51C70B2B1006E173B /* SQLServerDepartment.m */; };
+		5C226B421C70C0AF00C2929D /* SQLServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C226B411C70C0AF00C2929D /* SQLServerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,12 +46,12 @@
 		5C21B9E91C70AFA3006E173B /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
 		5C21B9EC1C70B135006E173B /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
 		5C21B9ED1C70B135006E173B /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
-		5C21B9F01C70B2B1006E173B /* SQLServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLServerFactory.h; path = AbstractFactory.xcodeproj/../SQLServerFactory.h; sourceTree = SOURCE_ROOT; };
-		5C21B9F11C70B2B1006E173B /* SQLServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLServerFactory.m; path = AbstractFactory.xcodeproj/../SQLServerFactory.m; sourceTree = SOURCE_ROOT; };
 		5C21B9F21C70B2B1006E173B /* SQLServerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerUser.h; sourceTree = "<group>"; };
 		5C21B9F31C70B2B1006E173B /* SQLServerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerUser.m; sourceTree = "<group>"; };
 		5C21B9F41C70B2B1006E173B /* SQLServerDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerDepartment.h; sourceTree = "<group>"; };
 		5C21B9F51C70B2B1006E173B /* SQLServerDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerDepartment.m; sourceTree = "<group>"; };
+		5C226B401C70C0AF00C2929D /* SQLServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerFactory.h; sourceTree = "<group>"; };
+		5C226B411C70C0AF00C2929D /* SQLServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,8 @@
 		5C21B9EF1C70B244006E173B /* SqlServer */ = {
 			isa = PBXGroup;
 			children = (
-				5C21B9F01C70B2B1006E173B /* SQLServerFactory.h */,
-				5C21B9F11C70B2B1006E173B /* SQLServerFactory.m */,
+				5C226B401C70C0AF00C2929D /* SQLServerFactory.h */,
+				5C226B411C70C0AF00C2929D /* SQLServerFactory.m */,
 				5C21B9F21C70B2B1006E173B /* SQLServerUser.h */,
 				5C21B9F31C70B2B1006E173B /* SQLServerUser.m */,
 				5C21B9F41C70B2B1006E173B /* SQLServerDepartment.h */,
@@ -194,9 +194,9 @@
 				5C21B9EE1C70B135006E173B /* AccessFactory.m in Sources */,
 				5C21B9E01C70AD5A006E173B /* User.m in Sources */,
 				5C21B9E71C70AF7B006E173B /* AccessDepartment.m in Sources */,
+				5C226B421C70C0AF00C2929D /* SQLServerFactory.m in Sources */,
 				5C21B9F81C70B2B1006E173B /* SQLServerDepartment.m in Sources */,
 				5C21B9EA1C70AFA3006E173B /* AccessUser.m in Sources */,
-				5C21B9F61C70B2B1006E173B /* SQLServerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				5C21B9D91C70AA64006E173B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
