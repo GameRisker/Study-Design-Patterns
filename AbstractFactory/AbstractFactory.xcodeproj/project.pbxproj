@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C21B9D41C70AA64006E173B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9D31C70AA64006E173B /* main.m */; };
+		5C21B9DD1C70AC97006E173B /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9DC1C70AC97006E173B /* Department.m */; };
+		5C21B9E01C70AD5A006E173B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9DF1C70AD5A006E173B /* User.m */; };
+		5C21B9E71C70AF7B006E173B /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9E61C70AF7B006E173B /* AccessDepartment.m */; };
+		5C21B9EA1C70AFA3006E173B /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9E91C70AFA3006E173B /* AccessUser.m */; };
+		5C21B9EE1C70B135006E173B /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9ED1C70B135006E173B /* AccessFactory.m */; };
+		5C21B9F71C70B2B1006E173B /* SQLServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9F31C70B2B1006E173B /* SQLServerUser.m */; };
+		5C21B9F81C70B2B1006E173B /* SQLServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C21B9F51C70B2B1006E173B /* SQLServerDepartment.m */; };
+		5C226B421C70C0AF00C2929D /* SQLServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C226B411C70C0AF00C2929D /* SQLServerFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C21B9CE1C70AA64006E173B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C21B9D01C70AA64006E173B /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C21B9D31C70AA64006E173B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C21B9DA1C70AA8B006E173B /* IUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUser.h; sourceTree = "<group>"; };
+		5C21B9DB1C70AC97006E173B /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		5C21B9DC1C70AC97006E173B /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		5C21B9DE1C70AD5A006E173B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5C21B9DF1C70AD5A006E173B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5C21B9E21C70ADDC006E173B /* IDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDepartment.h; sourceTree = "<group>"; };
+		5C21B9E31C70ADFA006E173B /* IFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFactory.h; sourceTree = "<group>"; };
+		5C21B9E51C70AF7B006E173B /* AccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
+		5C21B9E61C70AF7B006E173B /* AccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
+		5C21B9E81C70AFA3006E173B /* AccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
+		5C21B9E91C70AFA3006E173B /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
+		5C21B9EC1C70B135006E173B /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
+		5C21B9ED1C70B135006E173B /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
+		5C21B9F21C70B2B1006E173B /* SQLServerUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerUser.h; sourceTree = "<group>"; };
+		5C21B9F31C70B2B1006E173B /* SQLServerUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerUser.m; sourceTree = "<group>"; };
+		5C21B9F41C70B2B1006E173B /* SQLServerDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerDepartment.h; sourceTree = "<group>"; };
+		5C21B9F51C70B2B1006E173B /* SQLServerDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerDepartment.m; sourceTree = "<group>"; };
+		5C226B401C70C0AF00C2929D /* SQLServerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLServerFactory.h; sourceTree = "<group>"; };
+		5C226B411C70C0AF00C2929D /* SQLServerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLServerFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C21B9CD1C70AA64006E173B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C21B9C71C70AA64006E173B = {
+			isa = PBXGroup;
+			children = (
+				5C21B9D21C70AA64006E173B /* AbstractFactory */,
+				5C21B9D11C70AA64006E173B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C21B9D11C70AA64006E173B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C21B9D01C70AA64006E173B /* AbstractFactory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C21B9D21C70AA64006E173B /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				5C21B9EF1C70B244006E173B /* SqlServer */,
+				5C21B9E41C70AF69006E173B /* Access */,
+				5C21B9E11C70AD74006E173B /* Entity */,
+				5C21B9D31C70AA64006E173B /* main.m */,
+				5C21B9DA1C70AA8B006E173B /* IUser.h */,
+				5C21B9E21C70ADDC006E173B /* IDepartment.h */,
+				5C21B9E31C70ADFA006E173B /* IFactory.h */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		5C21B9E11C70AD74006E173B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5C21B9DE1C70AD5A006E173B /* User.h */,
+				5C21B9DF1C70AD5A006E173B /* User.m */,
+				5C21B9DB1C70AC97006E173B /* Department.h */,
+				5C21B9DC1C70AC97006E173B /* Department.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		5C21B9E41C70AF69006E173B /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				5C21B9E51C70AF7B006E173B /* AccessDepartment.h */,
+				5C21B9EC1C70B135006E173B /* AccessFactory.h */,
+				5C21B9ED1C70B135006E173B /* AccessFactory.m */,
+				5C21B9E61C70AF7B006E173B /* AccessDepartment.m */,
+				5C21B9E81C70AFA3006E173B /* AccessUser.h */,
+				5C21B9E91C70AFA3006E173B /* AccessUser.m */,
+			);
+			name = Access;
+			sourceTree = "<group>";
+		};
+		5C21B9EF1C70B244006E173B /* SqlServer */ = {
+			isa = PBXGroup;
+			children = (
+				5C226B401C70C0AF00C2929D /* SQLServerFactory.h */,
+				5C226B411C70C0AF00C2929D /* SQLServerFactory.m */,
+				5C21B9F21C70B2B1006E173B /* SQLServerUser.h */,
+				5C21B9F31C70B2B1006E173B /* SQLServerUser.m */,
+				5C21B9F41C70B2B1006E173B /* SQLServerDepartment.h */,
+				5C21B9F51C70B2B1006E173B /* SQLServerDepartment.m */,
+			);
+			name = SqlServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C21B9CF1C70AA64006E173B /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C21B9D71C70AA64006E173B /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				5C21B9CC1C70AA64006E173B /* Sources */,
+				5C21B9CD1C70AA64006E173B /* Frameworks */,
+				5C21B9CE1C70AA64006E173B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = 5C21B9D01C70AA64006E173B /* AbstractFactory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C21B9C81C70AA64006E173B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GameRisker;
+				TargetAttributes = {
+					5C21B9CF1C70AA64006E173B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5C21B9CB1C70AA64006E173B /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C21B9C71C70AA64006E173B;
+			productRefGroup = 5C21B9D11C70AA64006E173B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C21B9CF1C70AA64006E173B /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C21B9CC1C70AA64006E173B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C21B9F71C70B2B1006E173B /* SQLServerUser.m in Sources */,
+				5C21B9D41C70AA64006E173B /* main.m in Sources */,
+				5C21B9DD1C70AC97006E173B /* Department.m in Sources */,
+				5C21B9EE1C70B135006E173B /* AccessFactory.m in Sources */,
+				5C21B9E01C70AD5A006E173B /* User.m in Sources */,
+				5C21B9E71C70AF7B006E173B /* AccessDepartment.m in Sources */,
+				5C226B421C70C0AF00C2929D /* SQLServerFactory.m in Sources */,
+				5C21B9F81C70B2B1006E173B /* SQLServerDepartment.m in Sources */,
+				5C21B9EA1C70AFA3006E173B /* AccessUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C21B9D51C70AA64006E173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C21B9D61C70AA64006E173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C21B9D81C70AA64006E173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C21B9D91C70AA64006E173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C21B9CB1C70AA64006E173B /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C21B9D51C70AA64006E173B /* Debug */,
+				5C21B9D61C70AA64006E173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C21B9D71C70AA64006E173B /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C21B9D81C70AA64006E173B /* Debug */,
+				5C21B9D91C70AA64006E173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C21B9C81C70AA64006E173B /* Project object */;
+}
