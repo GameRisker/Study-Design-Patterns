@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB31FBD1D8D8B9E0096BC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB31FBC1D8D8B9E0096BC0B /* main.m */; };
+		5CB31FC91D8D8C180096BC0B /* Caretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB31FC41D8D8C180096BC0B /* Caretaker.m */; };
+		5CB31FCA1D8D8C180096BC0B /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB31FC61D8D8C180096BC0B /* Memento.m */; };
+		5CB31FCB1D8D8C180096BC0B /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB31FC81D8D8C180096BC0B /* Originator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CB31FB71D8D8B9E0096BC0B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CB31FB91D8D8B9E0096BC0B /* Memento */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Memento; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB31FBC1D8D8B9E0096BC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB31FC31D8D8C180096BC0B /* Caretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caretaker.h; sourceTree = "<group>"; };
+		5CB31FC41D8D8C180096BC0B /* Caretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Caretaker.m; sourceTree = "<group>"; };
+		5CB31FC51D8D8C180096BC0B /* Memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		5CB31FC61D8D8C180096BC0B /* Memento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		5CB31FC71D8D8C180096BC0B /* Originator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		5CB31FC81D8D8C180096BC0B /* Originator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB31FB61D8D8B9E0096BC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB31FB01D8D8B9E0096BC0B = {
+			isa = PBXGroup;
+			children = (
+				5CB31FBB1D8D8B9E0096BC0B /* Memento */,
+				5CB31FBA1D8D8B9E0096BC0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB31FBA1D8D8B9E0096BC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB31FB91D8D8B9E0096BC0B /* Memento */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB31FBB1D8D8B9E0096BC0B /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				5CB31FC31D8D8C180096BC0B /* Caretaker.h */,
+				5CB31FC41D8D8C180096BC0B /* Caretaker.m */,
+				5CB31FC51D8D8C180096BC0B /* Memento.h */,
+				5CB31FC61D8D8C180096BC0B /* Memento.m */,
+				5CB31FC71D8D8C180096BC0B /* Originator.h */,
+				5CB31FC81D8D8C180096BC0B /* Originator.m */,
+				5CB31FBC1D8D8B9E0096BC0B /* main.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB31FB81D8D8B9E0096BC0B /* Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB31FC01D8D8B9E0096BC0B /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildPhases = (
+				5CB31FB51D8D8B9E0096BC0B /* Sources */,
+				5CB31FB61D8D8B9E0096BC0B /* Frameworks */,
+				5CB31FB71D8D8B9E0096BC0B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memento;
+			productName = Memento;
+			productReference = 5CB31FB91D8D8B9E0096BC0B /* Memento */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB31FB11D8D8B9E0096BC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = GameRisker;
+				TargetAttributes = {
+					5CB31FB81D8D8B9E0096BC0B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5CB31FB41D8D8B9E0096BC0B /* Build configuration list for PBXProject "Memento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CB31FB01D8D8B9E0096BC0B;
+			productRefGroup = 5CB31FBA1D8D8B9E0096BC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB31FB81D8D8B9E0096BC0B /* Memento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB31FB51D8D8B9E0096BC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB31FC91D8D8C180096BC0B /* Caretaker.m in Sources */,
+				5CB31FCB1D8D8C180096BC0B /* Originator.m in Sources */,
+				5CB31FCA1D8D8C180096BC0B /* Memento.m in Sources */,
+				5CB31FBD1D8D8B9E0096BC0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CB31FBE1D8D8B9E0096BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CB31FBF1D8D8B9E0096BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CB31FC11D8D8B9E0096BC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CB31FC21D8D8B9E0096BC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB31FB41D8D8B9E0096BC0B /* Build configuration list for PBXProject "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB31FBE1D8D8B9E0096BC0B /* Debug */,
+				5CB31FBF1D8D8B9E0096BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB31FC01D8D8B9E0096BC0B /* Build configuration list for PBXNativeTarget "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB31FC11D8D8B9E0096BC0B /* Debug */,
+				5CB31FC21D8D8B9E0096BC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB31FB11D8D8B9E0096BC0B /* Project object */;
+}
